@@ -1,3 +1,6 @@
+#!/usr/bin/env nix-shell
+#!nix-shell -i bash -p mycli
+
 if [ -z "${1}" ]
 then
     echo "Geben sie eine der folgenden DBs als Parameter an:"
